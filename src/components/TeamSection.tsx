@@ -3,20 +3,15 @@ import AnimatedSection from './AnimatedSection';
 import { Linkedin, Mail } from 'lucide-react';
 
 const team = [
-  { name: 'Rajesh Kumar', role: 'Founder & CEO', expertise: 'SAP Strategy & Leadership', initials: 'RK' },
-  { name: 'Priya Sharma', role: 'CTO', expertise: 'S/4HANA Architecture', initials: 'PS' },
-  { name: 'Amit Patel', role: 'VP - SAP Consulting', expertise: 'SAP Implementation', initials: 'AP' },
-  { name: 'Sneha Reddy', role: 'Head of AI & Innovation', expertise: 'AI/ML & Automation', initials: 'SR' },
-  { name: 'Vikram Singh', role: 'Director - Cloud Services', expertise: 'Cloud Migration', initials: 'VS' },
-  { name: 'Neha Gupta', role: 'Lead - SAP FICO', expertise: 'Finance & Controlling', initials: 'NG' },
-  { name: 'Arjun Mehta', role: 'Lead - SAP MM/SD', expertise: 'Supply Chain', initials: 'AM' },
-  { name: 'Kavita Joshi', role: 'Head of Training', expertise: 'Corporate SAP Training', initials: 'KJ' },
+  { name: 'Vivek Upadhyay', role: 'Founder & CEO', expertise: 'SAP Strategy & Leadership', initials: 'VU' },
+  { name: 'Aarti Yadav', role: 'Technical Head', expertise: 'S/4HANA Architecture', initials: 'AV' },
+  { name: 'Rajat Mishra', role: 'VP - SAP Consulting', expertise: 'Head of AI & Innovation', initials: 'RM' },
 ];
 
 const gradients = [
   'from-blue-500 to-cyan-500',
   'from-cyan-500 to-teal-500',
-  'from-teal-500 to-emerald-500',
+  'from-blue-600 to-blue-400',
   'from-violet-500 to-blue-500',
   'from-indigo-500 to-cyan-500',
   'from-emerald-500 to-cyan-500',
@@ -42,7 +37,7 @@ const TeamSection = () => (
         </p>
       </AnimatedSection>
 
-      <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
         {team.map((member, i) => (
           <AnimatedSection key={member.name} delay={i * 0.08} direction="scale">
             <motion.div
