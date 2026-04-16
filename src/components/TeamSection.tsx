@@ -27,10 +27,10 @@ const TeamSection = () => (
     <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
       <AnimatedSection className="text-center mb-16">
         <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-primary/10 mb-6">
-          <span className="text-primary font-bold text-xs uppercase tracking-[0.15em]">Our Leadership</span>
+          <span className="text-primary font-bold text-xs uppercase tracking-[0.15em]">Team</span>
         </div>
         <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight mb-5">
-          Meet Our <span className="gradient-text">Expert Team</span>
+          <span className="gradient-text">Team</span>
         </h2>
         <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
           Industry veterans with decades of combined SAP experience driving digital transformation for global enterprises.
